@@ -1197,7 +1197,7 @@ html, body {
         transform: translateY(-50%);
     }
     .who .right-side {
-  right: -101px;
+  right: -30px;
 }
       .right-side::before {
     content: "";
