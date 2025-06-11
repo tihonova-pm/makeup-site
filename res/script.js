@@ -173,3 +173,12 @@ document.querySelector('.play-button').addEventListener('click', () => {
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const videos = document.querySelectorAll("video");
+    videos.forEach((video) => {
+      video.addEventListener("loadedmetadata", () => {
+        video.currentTime = 0.01; // Seek slightly forward to force first frame render
+      });
+    });
+  });
