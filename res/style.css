@@ -328,6 +328,7 @@ html, body {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 2;
+
 }
 
 
@@ -417,7 +418,21 @@ html, body {
     gap: 24px;
     max-width: 1000px;
     margin: 0 auto;
+    position: relative;
+  z-index: 2;
 }
+
+.course-info .info-box {
+    border: 1px solid #666;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  z-index: 2;
+}
+
 
 .for-whom-item {
     display: flex;
@@ -435,11 +450,11 @@ html, body {
     border-radius: 50%;
     color: white;
     font-size: 14px;
-    display: flex;
+    /*! display: flex; */
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    line-height: 1; /* prevents vertical misalignment */
+    /*! line-height: 1; */ /* prevents vertical misalignment */
     text-align: center;
 }
 
@@ -1056,6 +1071,14 @@ html, body {
 
 
 @media (max-width: 768px) {
+  .why-section .info-box{
+    padding-right: 25%;
+  }
+
+  .course-info .info-box{
+    padding-right: 20%;
+  }
+
   .carousel-wrapper {
   padding: 0px 60px 0px 0px;
 }
@@ -1182,10 +1205,12 @@ html, body {
         padding: 0px 180px 0px 0px;
     }
 
-    .content-text h2 {
+.content-text h2 {
   font-size: 36px;
   margin: 20px 0px;
   padding-right: 40%;
+  position: relative;
+  z-index: 2;
 }
 
 
@@ -1197,7 +1222,7 @@ html, body {
         transform: translateY(-50%);
     }
     .who .right-side {
-  right: -40px;
+  right: -25px;
 }
       .right-side::before {
     content: "";
