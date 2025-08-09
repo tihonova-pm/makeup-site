@@ -210,7 +210,7 @@ body {
 .highlight-blur {
   width: 260px;
   height: 150px;
-  background-color: rgb(156, 5, 0);
+  background-color: #fd3ca9;
   filter: blur(100px);
   opacity: 1;
 }
@@ -316,9 +316,9 @@ body {
   margin: 20px 0px;
 }
 
-.content-text .highlight {
+.highlight {
   color: #ffffff;
-  background: linear-gradient(90deg, #ff5580, #ff0055);
+  background: linear-gradient(90deg, #ff5580, #ff3e7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -414,7 +414,7 @@ body {
 }
 
 .for-whom-title span {
-    color: #d94a4a;
+    color: #ff3e7e;
 }
 
 .info-box {
@@ -484,7 +484,7 @@ body {
 
 .course-section .highlight {
   color: #ffffff;
-  background: linear-gradient(90deg, #ff5580, #ff0055);
+  background: linear-gradient(90deg, #ff5580, #ff3e7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -531,7 +531,7 @@ body {
     position: relative;
     display: flex;
     min-height: 300px; /* Minimum height for the card */
-    background: linear-gradient(90deg, #ff1f0f 0%, #800000 100%);
+    background: linear-gradient(90deg, #fd2f2f 0%, #ff3e7e 100%);
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 20px 20px 60px rgba(76, 42, 42, 0.5);
@@ -832,7 +832,7 @@ body {
 
 .dropdown-module.open .dropdown-label .label-text,
 .dropdown-module.open .dropdown-label .icon {
-  color: #f04; /* red */
+  color: #df3495;
 }
 
 .dropdown-module.open .dropdown-label .icon {
@@ -899,7 +899,7 @@ body {
 }
 
 .preorder-btn:hover {
-  background-color: red;
+  background-color: #fd3ca9;
   color: #fff;
 }
 
@@ -960,7 +960,7 @@ body {
 
 
 .whatsapp-button:hover {
-    background-color: red;
+    background-color: #fd3ca9;
     color: white;
 }
 
@@ -972,7 +972,7 @@ body {
 }
 
 .footer-socials i:hover {
-    color: red;
+    color: #fd3ca9;
 }
 
 
